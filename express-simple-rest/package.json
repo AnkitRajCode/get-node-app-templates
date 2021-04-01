@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "express-simple-rest-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple express REST API template",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",

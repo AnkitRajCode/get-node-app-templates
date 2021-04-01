@@ -7,19 +7,17 @@ exports.displayAllController = function (req, res) {
 // controller for /todo/completed route
 exports.displayCompletedController = function (req, res) {
     let completed = [];
-    for (i in list) {
-        let task = list[i];
-        if (task.finished) completed.push(task);
-    }
+    completed=list.filter(task=>{
+        return task.finished
+    })
     res.status(200).send(completed);
 }
 // controller for /todo/unfinished route
 exports.displayUnfinishedController = function (req, res) {
     let unfinished = [];
-    for (i in list) {
-        let task = list[i];
-        if (!(task.finished)) unfinished.push(task);
-    }
+    unfinished=list.filter(task=>{
+        return !task.finished
+    });
     res.status(200).send(unfinished);
 }
 

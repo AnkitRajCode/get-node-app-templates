@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "simple-express-ejs-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple express and ejs app template",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
