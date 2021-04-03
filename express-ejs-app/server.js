@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 // index page
 app.get('/', function (req, res) {
     res.status(200).render('pages/index', {
-        title: "index | create-node-app",
+        title: "index | create-express-app",
         emoji: "🥳",
         message: "Everything Works Fine!"
     });
@@ -25,7 +25,7 @@ app.get('/', function (req, res) {
 // not found
 app.use((req, res) => {
     res.status(404).render('pages/index', {
-        title: "not found | create-node-app",
+        title: "not found | create-express-app",
         emoji: "😫",
         message: "404 NOT FOUND"
     });
