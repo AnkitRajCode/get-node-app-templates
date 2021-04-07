@@ -11,14 +11,9 @@ const PORT = process.env.PORT || 8080;
 // serving static files
 app.use(express.static(path.join(__dirname, 'public')));
 
-//example without file
-app.get('/', function (req, res){
-    res.status(200).send("for index page: /index");
-});
-
 // example with file
 // index page
-app.get('/index', function (req, res) {
+app.get('/', function (req, res) {
     res.status(200).sendFile('/pages/index.html', { root: __dirname });
 });
 
