@@ -4,7 +4,7 @@ Various Node Js app templates for [get-node-app](https://github.com/DarthCucumbe
 
 The existing templates may suck but guess what? you can make em' better ;)
 
-You can also add your own templates but make sure they don't exists already. Read the (`app template guidelines`)[].
+You can also add your own templates but make sure they don't exists already. Read the (`template guidelines`)[https://github.com/DarthCucumber/get-node-app-templates/blob/master/template-guidelines.md].
 
 # Contributing to get-node-app-templates
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
@@ -22,7 +22,7 @@ We love your input! We want to make contributing to this project as easy and tra
 6. Issue that pull request!
 
 ## Report bugs using Github's [issues](https://github.com/DarthCucumber/get-node-app-templates/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](); it's that easy!
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/DarthCucumber/get-node-app-templates/issues); it's that easy!
 
 **Great Bug Reports** tend to have:
 
