@@ -4,6 +4,8 @@ Various Node Js app templates for [get-node-app](https://github.com/DarthCucumbe
 
 The existing templates may suck but guess what? you can make em' better ;)
 
+You can also add your own templates but make sure they don't exists already. Read the (`app template guidelines`)[].
+
 # Contributing to get-node-app-templates
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
