@@ -22,7 +22,7 @@ We love your input! We want to make contributing to this project as easy and tra
 6. Issue that pull request!
 
 ## Report bugs using Github's [issues](https://github.com/DarthCucumber/get-node-app-templates/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/DarthCucumber/get-node-app-templates/issues); it's that easy!
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/DarthCucumber/get-node-app-templates/issues/new); it's that easy!
 
 **Great Bug Reports** tend to have:
 
