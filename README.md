@@ -21,14 +21,8 @@ We love your input! We want to make contributing to this project as easy and tra
 4. If want to work on an existing issue then make sure that no one is working on it. 
 6. Issue that pull request!
 
-## Report bugs using Github's [issues](https://github.com/DarthCucumber/get-node-app-templates/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/DarthCucumber/get-node-app-templates/issues/new); it's that easy!
+## Bug report and New template request using Github's [issues](https://github.com/DarthCucumber/get-node-app-templates/issues/new/choose)
 
-**Great Bug Reports** tend to have:
+- Report a bug by [opening a new issue](https://github.com/DarthCucumber/get-node-app-templates/issues/new?assignees=&labels=&template=bug_report.md&title=); it's that easy!
 
-- A quick summary and/or background
-- Steps to reproduce
-  - Be specific!
-- What you expected would happen
-- What actually happens
-- Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
+- Request a new template by [opening a new issue](https://github.com/DarthCucumber/get-node-app-templates/issues/new?assignees=&labels=&template=template-request.md&title=).
