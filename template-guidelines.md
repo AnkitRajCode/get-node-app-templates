@@ -7,5 +7,5 @@ Following guidelines must be followed while making a new template.
 - **Template contents**:
     - normal files as usual to make the template work
     - **.gitignore**: you can pickup `.gitignore` file from any exiting template but make sure the content is as per your template
-    - **README.md**: should contain how to get the app running
+    - **README.md**: should contain how to get the app running(with steps if setup is little bit complex) and also **list of modules used in the template**
     - Make sure to not include any personal info like email id and stuff (in package.json)
