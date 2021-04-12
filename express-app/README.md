@@ -1,6 +1,10 @@
 # Simple Express App
 
-## Run server
+## modules
+
+`express`,`nodemon`
+
+## How to run? 
 
 - with nodemon: `npm run dev`
 

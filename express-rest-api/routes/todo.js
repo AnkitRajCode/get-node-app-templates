@@ -5,13 +5,13 @@ const {displayAllController,displayCompletedController,displayUnfinishedControll
 //for displaying all tasks
 router.get('/all',displayAllController);
 
-//for displaying completed task
-router.get('/completed',displayCompletedController);
+//for displaying finished task
+router.get('/finished',displayCompletedController);
 
 // for displaying unfinished task
 router.get('/unfinished',displayUnfinishedController);
 
-// for displaying specific task details
+// for displaying details of specific task 
 router.get('/:taskid',displaySpecificController);
 
 module.exports=router;

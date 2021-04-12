@@ -1,4 +1,5 @@
 // mocking database
+// use database instead over here
 exports.list = [{
     id: 1,
     date: "12/02/20",

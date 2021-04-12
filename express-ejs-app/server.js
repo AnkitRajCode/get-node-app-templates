@@ -10,13 +10,12 @@ const PORT = process.env.PORT || 8080;
 
 // serving static files
 app.use('/static', express.static(path.join(__dirname, 'public')));
-// set the view engine to ejs
 app.set('view engine', 'ejs');
 
 // index page
 app.get('/', function (req, res) {
     res.status(200).render('pages/index', {
-        title: "index | create-express-app",
+        title: "index | get-node-app",
         emoji: "🥳",
         message: "Everything Works Fine!"
     });
@@ -25,7 +24,7 @@ app.get('/', function (req, res) {
 // not found
 app.use((req, res) => {
     res.status(404).render('pages/index', {
-        title: "not found | create-express-app",
+        title: "not found | get-node-app",
         emoji: "😫",
         message: "404 NOT FOUND"
     });
