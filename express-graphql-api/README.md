@@ -18,7 +18,7 @@ Simple expree
 
 to create a new Task
 
-```json
+```graphql
 mutation{
     createTask(taskInput:{description:"demo task",finished:false,date:"12/12/12"}){
         id
@@ -33,7 +33,7 @@ mutation{
 
 to list all the tasks
 
-```json
+```graphql
 query{
     tasks{
         id
@@ -47,7 +47,7 @@ or
 
 to list all unfinished tasks
 
-```json
+```graphql
 query{
     tasks(finished:false){
         id
