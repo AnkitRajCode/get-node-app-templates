@@ -2,6 +2,7 @@
 
 Following guidelines must be followed while making a new template.
 
+- Template should be minimal
 - The new template should not exist in the repo i.e if express+ejs app exists then one should not add any new template related to express+ejs however one can add express+ejs+mongodb template
 - **Naming the template**: The template name must be short and descriptive and separated by `-` (hyphen). Have a look at the naming pattern of existing templates.
 - **Template contents**:
